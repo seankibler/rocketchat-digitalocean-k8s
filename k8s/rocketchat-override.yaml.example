@@ -1,0 +1,10 @@
+host: example.com
+mongodb:
+  mongodbRootPassword: MONGO_ROOT_PASSWORD
+  mongodbUsername: rocketchat
+  mongodbPassword: MONGO_APP_PASSWORD
+  mongodbDatabase: rocketchat
+ingress:
+  enabled: true
+  annotations:
+    kubernetes.io/ingress.class: "traefik"

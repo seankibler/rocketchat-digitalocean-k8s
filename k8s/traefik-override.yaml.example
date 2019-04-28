@@ -1,0 +1,15 @@
+rbac:
+  enabled: true
+resources:
+  limits:
+    memory: 128Mi
+    cpu: 500m
+  requests:
+    memory: 64Mi
+    cpu: 100m
+ssl:
+  enabled: true
+  enforced: true
+  defaultCert: CERT_BASE64
+  defaultKey: KEY_BASE64
+  insecureSkipVerify: true
